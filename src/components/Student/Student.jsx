@@ -2,7 +2,7 @@ import Score from "../Score/Score"
 
 const Student = (props) => {
   return ( 
-    <>
+    <div className="card">
       <h2>{props.student.name}</h2>
       <p>{props.student.bio}</p>
       <ul>
@@ -10,7 +10,7 @@ const Student = (props) => {
           <Score score={score} />
         )}
       </ul>
-    </> 
+    </div> 
   )
 }
 

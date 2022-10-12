@@ -68,11 +68,11 @@ function App() {
   // console.log(students)
 
   return (
-    <>
+    <div className='students'>
       {students.map(student => 
         <Student student={student} />
       )}
-    </>
+    </div>
   );
 }
 
